@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<title>Биллинговая панель</title>
+</head>
+
+<body class="body">
+	<header class="header mb-4">
+		<nav class="nav-main navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseMenu" aria-controls="navbarCollapseMenu" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand text-center mr-0" href="index.html"><img src="img/logo.svg" alt="Cambomber"></a>
+				<button class="login__btn btn order-lg-4 text-light" type="submit" data-toggle="modal" data-target="#ModalLogin">Логин<img class="login-img" src="img/login.svg" alt="Login"></button>
+                <div class="navbar-menu-collapse navbar-collapse collapse order-lg-3" id="navbarCollapseMenu">
+					<div class="navbar-nav align-items-start align-items-lg-center">
+						<a class="nav-item nav-link active" href="#">Биллинг и NS сервера</a><span class="divider d-none d-lg-block">|</span>
+						<a class="nav-item nav-link" href="#">Хостинг тарифы</a><span class="divider d-none d-lg-block">|</span>
+						<a class="nav-item nav-link" href="#">Домены тарифы</a><span class="divider d-none d-lg-block">|</span>
+						<a class="nav-item nav-link" href="#">Договор</a><span class="divider d-none d-lg-block">|</span>
+						<a class="nav-item nav-link" href="#">FAQ</a>
+					</div>
+                </div>
+            </div>
+		</nav>
+	</header>
+    
+<!-- MAIN -->
+    
+	<main class="main">
+		<section class="sec-description container">
+			<div class="description-header row mb-3"><h4 class="h4 col">Здесь Вы самостоятельно можете:</h4></div>
+			<div class="description-wrapper d-flex">
+			  <img src="img/description-1.svg" class="description__img" alt="description">
+			  <div class="description__body">
+				Регистрировать/продлевать домены
+			  </div>
+			</div>
+			<div class="description-wrapper d-flex">
+			  <img src="img/description-2.svg" class="description__img" alt="description">
+			  <div class="description__body">
+				Менять DNS сервера, управлять DNS записями<br>(если указаны наши ns1.protection.com.ua, ns2.protection.com.ua)
+			  </div>
+			</div>
+			<div class="description-wrapper d-flex">
+			  <img src="img/description-3.svg" class="description__img" alt="description">
+			  <div class="description__body">
+				Самостоятельно выделять место под хостинг новых проектов<br>(в рамках выделенного пространства можно размещать несколько сайтов)
+			  </div>
+			</div>
+			<div class="description-wrapper d-flex">
+			  <img src="img/description-4.svg" class="description__img" alt="description">
+			  <div class="description__body">
+				При мгновенной оплате через вебмани и банковские карточки домены и<br>хостинг регистрируются автоматически
+			  </div>
+			</div>
+		</section>
+		
+<!-- Section Plans -->
+		
+		<section class="sec-plans container">
+			<div class="plans-wrapper row justify-content-around">
+				<div class="card text-center">
+					<div class="card-body">
+						<h5 class="card-title"><span class="text-decoration-underline">Пакет #1</span></h5>
+						<ul class="list-group">
+							<li class="list-group-item">300 Мб дискового пространства</li>
+							<li class="list-group-item">1 сайт/1 MySQL</li>
+							<li class="list-group-item">Трафик неограничен</li>
+							<li class="list-group-item">Бэкап проектов раз в неделю в субботу</li>
+					  	</ul>
+						<p class="card-text">75 ₴/мес</p>
+						<a href="#" class="card-btn btn">Заказать</a>
+					</div>
+					<a href="#" class="card-footer btn">Технические подробности</a>
+				</div>
+				<div class="card text-center">
+					<div class="card-body">
+						<h5 class="card-title"><span class="text-decoration-underline">Пакет #2</span></h5>
+						<ul class="list-group">
+							<li class="list-group-item">1 Гб дискового пространства</li>
+							<li class="list-group-item">3 сайт/3 MySQL</li>
+							<li class="list-group-item">Трафик неограничен</li>
+							<li class="list-group-item">Бэкап проектов раз в неделю в субботу</li>
+					  	</ul>
+						<p class="card-text">95 ₴/мес</p>
+						<a href="#" class="card-btn btn">Заказать</a>
+					</div>
+					<a href="#" class="card-footer btn">Технические подробности</a>
+				</div>
+				<div class="card text-center">
+					<div class="card-body">
+						<h5 class="card-title"><span class="text-decoration-underline">Пакет #3</span></h5>
+						<ul class="list-group">
+							<li class="list-group-item">3 Гб дискового пространства</li>
+							<li class="list-group-item">5 сайт/5 MySQL</li>
+							<li class="list-group-item">Трафик неограничен</li>
+							<li class="list-group-item">Бэкап проектов раз в неделю в субботу</li>
+					  	</ul>
+						<p class="card-text">115 ₴/мес</p>
+						<a href="#" class="card-btn btn">Заказать</a>
+					</div>
+					<a href="#" class="card-footer btn">Технические подробности</a>
+				</div>
+				<div class="card text-center">
+					<div class="card-body">
+						<h5 class="card-title"><span class="text-decoration-underline">Пакет #4</span></h5>
+						<ul class="list-group">
+							<li class="list-group-item">7 Гб дискового пространства</li>
+							<li class="list-group-item">10 сайт/10 MySQL</li>
+							<li class="list-group-item">Трафик неограничен</li>
+							<li class="list-group-item">Бэкап проектов раз в неделю в субботу</li>
+					  	</ul>
+						<p class="card-text">150 ₴/мес</p>
+						<a href="#" class="card-btn btn">Заказать</a>
+					</div>
+					<a href="#" class="card-footer btn">Технические подробности</a>
+				</div>
+				<div class="card text-center">
+					<div class="card-body">
+						<h5 class="card-title" style="margin-bottom: 29px;">Пакет #5 <span class="text-decoration-underline">Абузоустойчивый</span></h5>
+						<ul class="list-group">
+							<li class="list-group-item">1 Гб дискового пространства</li>
+							<li class="list-group-item">1 сайт/1 MySQL</li>
+							<li class="list-group-item">Трафик неограничен</li>
+							<li class="list-group-item">Бэкап проектов раз в неделю в субботу</li>
+					  	</ul>
+						<p class="card-text">330 ₴/мес</p>
+						<a href="#" class="card-btn btn">Заказать</a>
+					</div>
+					<a href="#" class="card-footer btn">Технические подробности</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+<!-- FOOTER -->
+	
+	<footer class="footer">
+        <div class="container">
+            <div class="contacts-items d-flex flex-column align-items-center justify-content-around flex-md-row">
+                <div class="contact-item p-2">
+                    <a href="https://telegram.me/Nofikoff" class="contact__link"><img src="img/telegram.svg" alt="Telegram" class="contac__img"> @Nofikoff</a>
+                </div>
+                <div class="contact-item p-2">
+                    <a href="mailto:info@novikov.ua" class="contact__link"><img src="img/mail.svg" alt="E-mail" class="contac__img"> info@novikov.ua</a>
+                </div>
+                <div class="contact-item p-2">
+                    <a href="viber://chat?number=%2B380931196311" class="contact__link"><img src="img/viber.svg" alt="Viber" class="contac__img"></a>
+                    <a href="tel:+380931196311" class="contact__link">(093) 119-63-11, </a>
+                    <a href="tel:+380938537020" class="contact__link">(093) 853-70-20</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!--Login Modal-->
+		
+	<div class="login-modal modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="ModalLogin" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-title text-center flex-grow-1" id="ModalTitle"><img src="img/logo.svg" alt="Cambomber"></div>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<img class="close__img" src="img/close-img.png" alt="close">
+					</button>
+				</div>
+				<div class="modal-body d-flex">
+					<form class="login-form text-center">
+						<input type="text" class="login-form__input form-control d-inline-block" id="inputUsername" placeholder="Логин (6+ символов)" >
+						<input type="password" class="login-form__input form-control d-inline-block" id="inputPassword" placeholder="Пароль (6+ символов)">
+						<button type="submit" class="login__button btn btn-outline-light">Войти</button>
+						<div class="reset-pass">
+							<a class="reset-pass__link" href="#">Забыли пароль?</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    
+</body>
+</html>

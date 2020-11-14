@@ -1,0 +1,158 @@
+@charset "utf-8";
+@import url("responsive.css");
+
+/*--- Typography ---*/
+
+.body {
+    background-color: #181A1B;
+    color: #FFFFFF;
+}
+.h1, .h2, .h3, .h4, .h5 {
+	font-weight: 400;
+}
+
+/*--- Nav Main ---*/
+
+.nav-main {
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+.nav-main .nav-item {
+	position: relative;
+}
+.nav-main .divider {
+	color: #BE2B2D;
+}
+.nav-main .login__btn:hover {
+	border: #BE2B2D 2px solid;
+}
+.login-img {
+    padding-left: 12px;
+}
+
+/*-- Description Section --*/
+
+.sec-description {
+    margin-bottom: 44px;
+}
+.description-wrapper {
+	margin-bottom: 30px;
+}
+.description__body {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.description__img {
+	margin-right: 30px;
+}
+
+/*-- Plans Section --*/
+.sec-plans {
+    margin-bottom: 70px;
+}
+
+.card {
+    max-width: 240px!important; 
+    padding: 7px;
+    margin: 12px;
+    background: #292C2E;
+    border: 3px solid #982023;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.card-title {
+	margin-bottom: 53px;
+}
+.card-title .text-decoration-underline {
+	text-decoration-color: #982023!important;
+}
+.list-group-item {
+	background-color: transparent;
+	padding-left: 0;
+	padding-right: 0;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-bottom: 1px solid #fff!important;
+    border-radius: 0!important;
+}
+.card-text {
+	margin-top: 34px;
+	margin-bottom: 34px;
+	font-size: 19px;
+}
+.card-btn {
+	background-color: #982023;
+	color: #fff;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.card-btn:hover {
+    color: #fff;
+    background-color: #6B1618;
+}
+.card-footer {
+	color: #fff;
+	background-color: #32383D;
+	border-radius: 5px!important;
+}
+.card-footer:hover {
+    color: #fff;
+    background-color: #9FA8B0;
+}
+
+/*-- Footer --*/
+
+.footer {
+    border-top: 2px solid #982023;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-- Login Modal --*/
+
+.login-modal {
+    padding-left: 17px;
+}
+.login-modal .modal-content {
+    background-color: rgba(31, 31, 31, 1);
+    border-color: #fff;
+}
+.login-modal .modal-header {
+    border-bottom-width: 0;
+}
+.login-modal .close {
+    background-color: inherit;
+    border-width: 0;
+    opacity: .5;
+}
+.login-modal .close:hover {
+    opacity: 1;
+}
+.login-modal .modal-body {
+    padding: 1rem 20px;
+}
+.login-modal .login-form__input {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #343434;
+    border: 1px solid #C4C4C4;
+    border-radius: 2px;
+    color: #fff;
+}
+.login-modal .login__button {
+    margin: 10px 0;
+    border: 2px solid #900201;
+    font-size: 22px;
+    max-width: 150px;
+}
+.login-modal .reset-pass {
+    font-size: 12px;
+}
+.login-modal .reset-pass__link {
+    color: #990000;
+}

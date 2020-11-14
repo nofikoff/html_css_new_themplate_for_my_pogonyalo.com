@@ -1,0 +1,38 @@
+@charset "utf-8";
+@media only screen and (max-width: 576px) {
+	.card {
+		max-width: none!important;
+	}
+	.plans-wrapper {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.container {
+		max-width: none;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.nav-main {
+		border-bottom: 2px solid #BE2B2D;
+	}
+	.navbar-menu-collapse {
+		width: auto;
+	}
+	.nav-main .nav-item.active::before {
+		position: absolute;
+		content: url('../img/cursor.svg');
+		z-index: 2;
+		top: 38px;
+		left: calc(50% - 6px);
+	}
+	.nav-main .nav-item.active::after {
+		position: absolute;
+		content: '';
+		width: 10px;
+		top: 53px;
+		left: calc(50% - 5px);
+		border: 2px solid #181A1B;
+	}
+}
